@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!--LINKS-->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="body_form">
+    <a href="../landpage/index.html"><i class="logo border">LOGO</i></a>
+    <form action="#" method="get">
+        <fieldset id="cadastro">
+            <div class="div_cadastro">
+                <h1 class="title_form">Cadastro</h1>
+                <input type="text" id="new_name" name="new_user" placeholder="Nome" required name="new_name">
+                <input type="email" id="new_email" name="new_user" placeholder="Email" required name="new_email">
+                <input type="password" id="new_password" name="new_user_password" placeholder="Senha" required name="new_password">
+                <input type="password" id="conf_password" name="conf_user_password" placeholder="Confirme sua senha" required name="conf_user_password">
+                <div class="birthday">
+                    <h2>Data de Nascimento</h2><br>
+                    <select name="day" id="user_birthday" class="user_day user_birthday">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>                                                  
+                    <select name="month" id="user_month" class="user_month user_birthday">
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                    </select>
+                    <select name="year" id="user_year" class="user_year user_birthday">
+                        <option value="1940">1940</option>
+                        <option value="1941">1941</option>
+                        <option value="1942">1942</option>
+                        <option value="1943">1943</option>
+                    </select>                                                                   
+                </div>
+                <input list="user_location" placeholder="Localização" required name="user_location">
+                <datalist id="user_location">
+                    <option value="Brasil">
+                </datalist>
+                <div class="genero">
+                    <label>Gênero</label><br>
+                    <input type="radio" id="user_male" name="user_gender" value="male" required name="user_male">
+                    <label for="user_male">Maculino</label>
+                    <input type="radio" id="user_female" name="user_gender" value="female" required name="user_female">
+                    <label for="user_female">Feminino</label>
+                </div>
+
+                <input type="submit" value="CADASTRAR" class="bt" id="btCadastro">
+            </div>
+        </fieldset>
+    </form>
+    <!--JAVASCRIPT-->
+    <script src="script_cadastro.js"></script>
+</body>
+</html>

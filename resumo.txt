@@ -1,0 +1,100 @@
+1-ETAPA: Conceito
+    Criar um site de compartilhamento de dicas de receitas.Cada pessoa que visitar
+    o site tera acesso a todas as postagens,se o visitante estiver cadastrado ele
+    podera comentar e adicionar sua receita no site. O site deve conter uma
+    LANDPAGE,uma página de LOGIN e CADASTRO,uma página que mostre o CATÁLOGO com
+    as receitas cadastradas,uma aba para CADASTRAR AS RECEITAS e outra para que
+    o USUÁRIO possa VER SUAS INFORMAÇÕES DE NAVEGAÇÃO.Faça uma página que falara
+    SOBRE a empresa.
+1.1-ETAPA: Conceito LANDPAGE:
+    Página do primeiro acesso do visitante.Na parte superior do site, devera conter
+    a LOGO e as opções de login e cadastro.Logo abaixo,links de navegação para as 
+    categorias dos alimentos e bebidas.Mostre algumas sujestões de receitas para o
+    usuário e logo abaixo faça uma sujestão ao usuário para se cadastrar no site.
+    Por fim,na parte inferior,coloque as redes sociais do site e um link para a aba
+    que falara sobre a empresa. 
+1.2-ETAPA: Conceito Login_Cadastro:
+    No cadastro você deve coletar as seguintes informções:nome,email,senha e sua confirmação,
+    data de nascimento,sexo,localidade.O login só devera pedir o email e a senha.
+1.3-ETAPA: Conceito Catálogo_Receitas:
+    Deverá conter nesta página cards com os alimentos cadastrados.Deverá ter dois locais de 
+    filtragem,um para as subcategorias da classe de alimento escolhida e outra para especificações
+    mais detalhadas como: duração,vegetariana,quantidade de pessoas,etc.
+    1.3.1-ETAPA: Tipo de Alimento:
+     -Pães e Bolos:
+        *Bolos simples
+        *Tortas Salgadas
+        *Biscoitos
+        *Bolos Com Cobertura
+    -Sobremesas:
+        *Pudins e Flans
+        *Pavê
+        *Chocolate
+        *Mousse
+        *Sorvete
+    -Carnes:
+        *Bovina
+        *Suina
+        *Lombo
+        *Carne Moída
+    -Aves:
+        *Frango
+        *Peito de Frango
+        *Coxa de Frango
+        *Filé de Frango
+    -Frutos do Mar:
+        *Bacalhau
+        *Salmão
+        *Camarão
+        *Polvo
+    -Cereais e Grãos:
+        *Arroz 
+        *Feijão
+        *Quinoa
+        *Risoto
+    -Massas:
+        *Pizza
+        *Macarrão
+        *Massa Fresca
+        *Lasanha
+    -Saladas:
+        *Salada de Legume
+        *Saladas leves
+        *Salada com Frutas
+        *Salada Saudáveis
+    -Sopas:
+        *Caldos
+        *Cremes
+        *Sopa de Legumes
+        *Sopa Detox
+    -Molhos e Acompanhamentos:
+        *Molhos para carne
+        *Farofa
+        *Maionese
+        *Vinagrete
+    -Bebidas:
+        *Batidas
+        *Sucos Naturais
+        *Sucos Detox
+        *Vitaminas
+
+    1.3.2-ETAPA: Conceito Apresentando_Receitas:
+    Ao selecionar a receita o usuário deverá ser direcionado a uma página que tera como destaque 
+    a imagem do alimento, logo abaixo deve conter o tempo de preparo,o rendimento e a foto 
+    ao lado do nome da pessoa que fez o cadastro da receita.Em seguida, um título em destaque deve 
+    aparecer indicando o começo da receita,três textos deveram aparecer:um para os ingredientes,
+    outro para o modo de preparo,um para a montagem e o último com alguma observação caso o usuário 
+    tenha colocado.
+1.4-ETAPA: Conceito Cadastro_Receitas:
+    Deverá conter 8 tipos de input.São eles:nome do prato,uma foto do prato,o tempo de preparo,quantidade de porções,
+    a categoria do prato,uma área para inserir as receitas,uma para descrição do preparo e outra descrevendo alguma
+    observação.Por fim,um botão para enviar as informações.
+1.5-ETAPA: Conceito Sobre:
+    Deverá ter um texto resulmindo a empresa,logo em seguida apresente os departamentos com os funcionários.
+-Paleta de Cores:
+    A-#FE871C
+    B-#E65C19
+    C-#FC4E28
+    D-#E62119
+    E-#FE1C70
+

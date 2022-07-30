@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Receita</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../style.css">
+    <!--ICONS-->
+    <link rel="stylesheet" href="../img/icons/icons_style/style.css">
+</head>
+<body>
+    <header id="header">
+        <!--Logo_Login-->
+        <section class="logo_login">
+            <a href="../landpage/index.html"><i class="logo">LOGO</i></a>
+            <div class="bts_navegacao">
+                <a class="a_buttom login_none" href="../login/login.html">login</a>
+                <a class="a_buttom login_none a_cadastro" href="../cadastro/cadastro.html">cadastro</a>    
+            </div>
+            <div id="menu_mobile">
+                <a class="a_buttom" href="../login/login.html">login</a>
+                <button id="bt_mobile">Menu</button>
+            </div>
+        </section>
+        <!--Menu-->
+        <nav id="nav">
+            <ul>
+                <li><a href="../catalogo_receita/catalogo_receita.html">Pães e Bolos</a></li>
+                <li><a href="#">Sobremesas</a></li>
+                <li><a href="#">Carnes</a></li>
+                <li><a href="#">Aves</a></li>
+                <li><a href="#">Frutos do Mar</a></li>
+                <li><a href="#">Cereais e Grãos</a></li>
+                <li><a href="#">Massas</a></li>
+                <li><a href="#">Saladas</a></li>
+                <li><a href="#">Sopas</a></li>
+                <li><a href="#">acompanhamentos</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li class="a_envieReceita"><a href="../cadastro_receita/cadastro_receita.html" class="title_autor">Envie uma receita</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <form method="get" name="form_envReceita" class="enviar_receita">
+            <h1 class="title_generico">Enviar Receita</h1>
+            <input type="text" id="nome_receita" placeholder="Nome da Receita">
+            <div class="temp_porc">
+                <div class="temp">
+                    <h2 class="title_form">Tempo de Preparo</h2>                     
+                    <input type="number" id="minuto" placeholder="minuto">
+                </div>
+                <div class="line"></div>
+                <div class="porc">
+                    <h2 class="title_form">Porções</h2>
+                    <input type="number" id="porcao" placeholder="Porções">
+                </div>
+            </div>
+            <div class="file">
+                <label for="file">Adicionar Foto</label>
+                <span>nomeImg.png</span>
+                <input type="file" id="file">
+            </div>
+            <h2 class="title_form">Ingredientes</h2>
+            <textarea name="ingredientes" id="textarea_ingred" cols="70" rows="10" placeholder="Ex:03 avos"></textarea>
+            <h2 class="title_form">Modo de Preparo</h2>
+            <textarea name="ingredientes" id="textarea_prep" cols="30" rows="10" placeholder="Ex:bata todos os ingredientes"></textarea>
+            <h2 class="title_form">Dicas e Observações</h2>
+            <textarea name="ingredientes" id="textarea_dica" cols="30" rows="10"></textarea>
+            <span class="msg_erro" id="erro_submit">Verifique os campos em vermelho</span>
+            <input type="submit" value="Enviar Receita" class="bt" id="btEnviarReceita">
+        </form>
+    </main>
+    <footer id="footer">
+        <div class="contato">
+            <h3>Contato</h3>
+            <p>Email Comercial:<span>comercial@gmail.com</span></p>
+            <p>Email para Anunciantes:<span>anunciar@gmail.com</span></p>
+            <p>Telefone:<span>1234-5678</span></p>
+            <p>WhatApp:<span>98765-4321</span></p>
+        </div>
+        <div class="sobre">
+            <h3>Sobre</h3>
+            <a href="../sobre/sobre.html">Quem somos nós</a><br>
+            <a href="../anuncie/anuncie.html">Anuncie Aqui</a>
+        </div>
+        <div class="rede_social">
+            <h3>Redes Sociais</h3>
+            <a href="#"><span id="facebook" class="icon-facebook"></span></a>
+            <a href="#"><span id="instagram" class="icon-instagram"></span></a>
+            <a href="#"><span id="twitter" class="icon-twitter"></span></a>
+        </div>
+    </footer>
+    <span class="copy">copyright</span>
+    <!--JAVASCRIPT-->
+    <script src="../script.js"></script>
+</body>
+</html>
